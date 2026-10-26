@@ -1,17 +1,26 @@
 html {
     background-color: rgb(191, 202, 230);
+font-family: "bahnschrift", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.site-title {
+    font-size: 28px;
 }
 
 code {
     background-color: rgba(0, 0, 0, 0.125);
-    padding: 2px 4px;
-    border-radius: 4px;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 .site-header {
     background-color: rgb(77, 98, 149);
     padding: 20px 20px 0px 20px;
     border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+    color:aliceblue;
 }
 
 .site-main {
@@ -27,7 +36,7 @@ code {
 .site-links {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0 0;
     display: flex;
     gap: 5px;
     justify-content: space-between;
